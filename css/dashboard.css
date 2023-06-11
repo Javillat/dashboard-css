@@ -1,3 +1,7 @@
+:root {
+    --white-color: #fff;
+}
+
 html,
 body {
     margin: 0px;
@@ -8,12 +12,12 @@ body {
 .dashboard-container-general {
     margin: 0px;
     display: flex;
-    background-color: #fff;
+    background-color: var(--white-color);
 }
 
-.dashboard-aside-izquierdo {
+.dashboard-nav {
     margin: auto;
-    width: 20vw;
+    width: 15vw;
     height: 100%;
     min-height: 100vh;
     background-color: rgb(55, 108, 223);
@@ -21,10 +25,10 @@ body {
 
 .dashboard-control-general {
     margin: 0;
-    width: 80vw;
+    width: 85vw;
     height: 100%;
     min-height: 100vh;
-    border: 1px solid #fff;
+    border: 1px solid var(--white-color);
     background-color: rgb(185, 211, 213);
 }
 
@@ -32,8 +36,8 @@ body {
     display: flex;
     margin: 0;
     height: 10vh;
-    width: 80vw;
-    min-width: 80vw;
+    width: 85vw;
+    min-width: 85vw;
     background-color: #ebb7b7;
     align-items: center;
 }
@@ -54,4 +58,55 @@ body {
     width: 30vw;
     border-radius: 5px 0px 0px 5px;
     background-color: rgb(194, 227, 228);
+}
+
+ul {
+    padding: 20px 10px;
+    color: var(--white-color);
+}
+
+li a {
+    margin: 15px;
+    display: inline-block;
+    list-style-type: none;
+    text-shadow: 1px 2px 2px gray;
+    color: var(--white-color);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.dashboard-control-view {
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    background-color: brown;
+}
+
+nav h3 {
+    color: darkgray;
+}
+
+.caja-menor {
+    display: flex;
+    justify-content: space-around;
+    width: 85vw;
+    height: 15vh;
+    border-width: 2px;
+    background-color: var(--white-color);
+}
+
+.article {
+    margin: 2px;
+    padding: 5px;
+    width: 22vw;
+    border: 2px solid blue;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
 }
