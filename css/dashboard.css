@@ -101,11 +101,52 @@ nav h3 {
     background-color: var(--white-color);
 }
 
+
+.caja-mediana {
+    display: flex;
+    justify-content: space-around;
+    width: 85vw;
+    height: 30vh;
+    border-width: 2px;
+    background-color: #fff;
+}
+
+.caja-grande {
+    display: flex;
+    justify-content: space-around;
+    width: 85vw;
+    height: 40vh;
+    border-width: 2px;
+    background-color: var(--white-color);
+}
+
 .article {
     margin: 2px;
     padding: 5px;
     width: 22vw;
-    border: 2px solid blue;
+    border: 2px solid rgb(93, 165, 216);
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-m {
+    margin: 2px;
+    padding: 5px;
+    width: 25vw;
+    height: 21vh;
+    border: 2px solid rgb(93, 165, 216);
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-g {
+    margin: 2px;
+    padding: 5px;
+    width: 42vw;
+    height: 25vh;
+    border: 2px solid rgb(93, 165, 216);
     border-radius: 5px;
     justify-content: center;
     align-items: center;
